@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d3143277-f791-440d-8b40-ea6be01b846d}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>art_generatif.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="150000mandelbrot.jpg" />
+    <Content Include="1er arbre.jpg" />
+    <Content Include="2em arbre.jpg" />
+    <Content Include="arbre fractal de 12 iteration.jpg" />
+    <Content Include="arbre fractal de 15 iteration.jpg" />
+    <Content Include="arbre fractal de 17 iteration.jpg" />
+    <Content Include="arbre fractal de 18 iteration.jpg" />
+    <Content Include="arbre fractal de 3 iteration.jpg" />
+    <Content Include="arbre fractal de 5 iteration.jpg" />
+    <Content Include="arbre fractal de mandelbrot de 17 iteration.jpg" />
+    <Content Include="arbre.PNG" />
+    <Content Include="arbre2.PNG" />
+    <Content Include="Capture.PNG" />
+    <Content Include="chemin auto evitant.jpg" />
+    <Content Include="conjuger mandelbrot.jpg" />
+    <Content Include="courbe de koch 0 iteration.jpg" />
+    <Content Include="courbe de koch 1 iteration.jpg" />
+    <Content Include="courbe de koch 10 iteration.jpg" />
+    <Content Include="courbe de koch 2 iteration.jpg" />
+    <Content Include="courbe de koch 3 iteration.jpg" />
+    <Content Include="courbe de koch 4 iteration.jpg" />
+    <Content Include="courbe de koch 5 iteration.jpg" />
+    <Content Include="courbe_du_dragon_0.jpg" />
+    <Content Include="courbe_du_dragon_1.jpg" />
+    <Content Include="courbe_du_dragon_10.jpg" />
+    <Content Include="courbe_du_dragon_11.jpg" />
+    <Content Include="courbe_du_dragon_12.jpg" />
+    <Content Include="courbe_du_dragon_13.jpg" />
+    <Content Include="courbe_du_dragon_14.jpg" />
+    <Content Include="courbe_du_dragon_15.jpg" />
+    <Content Include="courbe_du_dragon_16.jpg" />
+    <Content Include="courbe_du_dragon_2.jpg" />
+    <Content Include="courbe_du_dragon_3.jpg" />
+    <Content Include="courbe_du_dragon_4.jpg" />
+    <Content Include="courbe_du_dragon_5.jpg" />
+    <Content Include="courbe_du_dragon_6.jpg" />
+    <Content Include="courbe_du_dragon_7.jpg" />
+    <Content Include="courbe_du_dragon_8.jpg" />
+    <Content Include="courbe_du_dragon_9.jpg" />
+    <Content Include="erreur mot.PNG" />
+    <Content Include="erreur mot2.PNG" />
+    <Content Include="fibo 5.PNG" />
+    <Content Include="fibo 800.PNG" />
+    <Content Include="fractal de Fibonacci 10.jpg" />
+    <Content Include="fractal de Fibonacci 10t.jpg" />
+    <Content Include="fractal de Fibonacci 23.jpg" />
+    <Content Include="fractal de Fibonacci 24.jpg" />
+    <Content Include="fractal de Fibonacci 3.jpg" />
+    <Content Include="fractal de Fibonacci 45.jpg" />
+    <Content Include="fractal de Fibonacci 50t.jpg" />
+    <Content Include="fractal de Fibonacci 8.jpg" />
+    <Content Include="fractal de Fibonacci 800t.jpg" />
+    <Content Include="fractal de Fibonacci t 800.jpg" />
+    <Content Include="fractal de Fibonacci t75.jpg" />
+    <Content Include="graph quadratique du point %28-0.682991828274881-9.788345749212741j%29.jpg" />
+    <Content Include="graph quadratique du point %28-0.702993872230218+2.8541617853480385j%29.jpg" />
+    <Content Include="graph quadratique du point %28-1.400638644467037+13.203814434275273j%29.jpg" />
+    <Content Include="graph quadratique du point %28-10.866740918190922+14.61823816975173j%29.jpg" />
+    <Content Include="graph quadratique du point %28-12.102306389748342+12.21802090217945j%29.jpg" />
+    <Content Include="graph quadratique du point %28-12.570572380923975-3.0535819002822056j%29.jpg" />
+    <Content Include="graph quadratique du point %28-14.99199802846945-11.291401882890021j%29.jpg" />
+    <Content Include="graph quadratique du point %28-2.1155648870191808+8.69438553523386j%29.jpg" />
+    <Content Include="graph quadratique du point %28-3.882265699314459-10.884561384230743j%29.jpg" />
+    <Content Include="graph quadratique du point %28-3.900728781602229+2.459847171337749j%29.jpg" />
+    <Content Include="graph quadratique du point %28-4.661255282993771-7.795780317310261j%29.jpg" />
+    <Content Include="graph quadratique du point %28-5.131287534447086-0.1639693539707281j%29.jpg" />
+    <Content Include="graph quadratique du point %28-5.614332332442157+9.189934293604445j%29.jpg" />
+    <Content Include="graph quadratique du point %28-6.445124516856271-14.433734511570716j%29.jpg" />
+    <Content Include="graph quadratique du point %28-6.994349810167851-5.045077040629289j%29.jpg" />
+    <Content Include="graph quadratique du point %28-7.234556090095751-8.76394201747691j%29.jpg" />
+    <Content Include="graph quadratique du point %28-7.3952262648136236+2.491673931939868j%29.jpg" />
+    <Content Include="graph quadratique du point %28-7.526197239928461+0.04599985959083419j%29.jpg" />
+    <Content Include="graph quadratique du point %28-7.743566346485892+12.578959049181229j%29.jpg" />
+    <Content Include="graph quadratique du point %28-8.44105754913793-8.121771008686807j%29.jpg" />
+    <Content Include="graph quadratique du point %28-9.23853823342996-6.556812509633708j%29.jpg" />
+    <Content Include="graph quadratique du point %28-9.479920333649368-0.36757904343612857j%29.jpg" />
+    <Content Include="graph quadratique du point %281.1833223842876528-2.3590402112852953j%29.jpg" />
+    <Content Include="graph quadratique du point %2810.001653210171828-7.6609661866465455j%29.jpg" />
+    <Content Include="graph quadratique du point %2810.543808850170365-11.169162999556258j%29.jpg" />
+    <Content Include="graph quadratique du point %2811.44398397032434+3.2943883897652384j%29.jpg" />
+    <Content Include="graph quadratique du point %2811.664413066962702-4.778568720565252j%29.jpg" />
+    <Content Include="graph quadratique du point %2811.699849323034272-8.423681515298007j%29.jpg" />
+    <Content Include="graph quadratique du point %2813.806849977375677-14.240973034530061j%29.jpg" />
+    <Content Include="graph quadratique du point %2814.140390800880112+13.9069977675158j%29.jpg" />
+    <Content Include="graph quadratique du point %283.3603165845474656-13.164268312031895j%29.jpg" />
+    <Content Include="graph quadratique du point %283.37206303028805-9.122245450103463j%29.jpg" />
+    <Content Include="graph quadratique du point %283.475550515163455+3.280687133647195j%29.jpg" />
+    <Content Include="graph quadratique du point %283.7857761637411045-13.597288745918313j%29.jpg" />
+    <Content Include="graph quadratique du point %284.474495296784831+6.393505461946987j%29.jpg" />
+    <Content Include="graph quadratique du point %284.492795211753911+5.916110634991377j%29.jpg" />
+    <Content Include="graph quadratique du point %285.03646693425539-12.608412115435987j%29.jpg" />
+    <Content Include="graph quadratique du point %286.554377643546179-11.561409173103781j%29.jpg" />
+    <Content Include="graph quadratique du point %286.713795652766969-6.2265409757178265j%29.jpg" />
+    <Content Include="graph quadratique du point %288.652820514909763-14.855314759964362j%29.jpg" />
+    <Content Include="julia_%28-0.13372635016404155+1.2041667233937243j%29.jpg" />
+    <Content Include="julia_%28-0.21104660371861472+0.7338720917151651j%29.jpg" />
+    <Content Include="julia_%28-0.3536002963627074+0.26139859424101064j%29.jpg" />
+    <Content Include="julia_%28-0.4949251013482241+0.6156075768542286j%29.jpg" />
+    <Content Include="julia_%28-0.7226173429884827+0.911657396244272j%29.jpg" />
+    <Content Include="julia_%28-0.9532103067828408+0.07364910041489336j%29.jpg" />
+    <Content Include="julia_%28-1.0956098211440939-1.1619322722713323j%29.jpg" />
+    <Content Include="julia_%28-1.127904922439992+0.6984034279560616j%29.jpg" />
+    <Content Include="julia_%28-1.4941409747578436+0.695745586060982j%29.jpg" />
+    <Content Include="julia_%280.029282920342145413-0.05288095865414677j%29.jpg" />
+    <Content Include="julia_%280.1075566511999766+1.468832286309977j%29.jpg" />
+    <Content Include="julia_%280.20262576801223453+1.297991652400516j%29.jpg" />
+    <Content Include="julia_%280.4410181076270625-1.1594677881187736j%29.jpg" />
+    <Content Include="julia_%280.4591169156614403-0.49053067608812695j%29.jpg" />
+    <Content Include="julia_%280.7340216134525797-0.9283364302708007j%29.jpg" />
+    <Content Include="julia_%280.7686986891982106-0.6022861321362799j%29.jpg" />
+    <Content Include="julia_%280.8294057844158331-0.44842659998113166j%29.jpg" />
+    <Content Include="julia_%280.8337274301984152-0.4584039028946263j%29.jpg" />
+    <Content Include="julia_%280.8694876403384368-0.09636743448482621j%29.jpg" />
+    <Content Include="julia_%281.1298207116790904+1.2288961962954223j%29.jpg" />
+    <Content Include="julia_%281.1401598414445755+0.796245634731672j%29.jpg" />
+    <Content Include="julia_%281.2433074836178641+0.952955784014184j%29.jpg" />
+    <Content Include="julia_%281.3459199294489999-1.1535346649199396j%29.jpg" />
+    <Content Include="julia_%281.4654134931367921+1.3845078594188567j%29.jpg" />
+    <Content Include="julia_%281.470086627937603-0.4540530920457919j%29.jpg" />
+    <Content Include="julia_1j.jpg" />
+    <Content Include="mandelbrot 0.001643721971153.jpg" />
+    <Content Include="mandelbrot conjugue.jpg" />
+    <Content Include="mandelbrot z6+constante1.5+1.06.jpg" />
+    <Content Include="mandelbrot zoom bug.jpg" />
+    <Content Include="mandelbrot zoom plus bo.jpg" />
+    <Content Include="mandelbrot.jpg" />
+    <Content Include="mandelbrot1000.jpg" />
+    <Content Include="mandelbrot3000.jpg" />
+    <Content Include="mandelbrot7.jpg" />
+    <Content Include="mandelbrot78.jpg" />
+    <Content Include="mandelbrotM.jpg" />
+    <Content Include="mandelbroto.jpg" />
+    <Content Include="puissancemandelbrot.jpg" />
+    <Content Include="sinu mandelbrot.jpg" />
+    <Content Include="sinu zmandelbrot.jpg" />
+    <Content Include="solution.PNG" />
+    <Content Include="tapis de sierp.jpg" />
+    <Content Include="tttttt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="art_generatif.py" />
+    <Compile Include="art_generatifv2.py" />
+    <Compile Include="art_generatifv3.py" />
+    <Compile Include="module1.py" />
+    <Compile Include="plt.py" />
+    <Compile Include="recusiviter v2.py" />
+    <Compile Include="zoom mand.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
