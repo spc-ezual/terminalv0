@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Documention</title>
+		<style>
+	h1.titre	{ font-size:400%}
+	
+	
+	body		{background-image:url(vinyl-record-spinning_4460x4460.jpg);
+				background-size:100%;
+				background-repeat:none;
+				color:White}
+	
+	div.bandeau{ 
+				width:50%;
+				height:10%;
+				position:absolute;
+				left:25%;
+				top:0%;
+				text-align:center;
+				}
+	div.centre_bas{
+                width:60%;
+                position: absolute;
+                left:30%;
+                top:20%;
+				text-align:left;
+				}
+	div.centre_haut{
+                width:50%;
+                height:10%;
+                left:25%;
+                top:10%;
+				text-align:center;
+				}
+	div.gauche{width:20%;
+				height:60%;
+				position:relative;
+				left:5%;
+				top:20%;
+				text-align:center;}
+	span.textemillieu{text-align:center}
+				
+	button.lien{width:100%;
+	height:15%;
+	background-color:#23644d;
+	position:relative}
+				</style>
+	</head>
+	
+	<body >
+	<div class=gauche>
+	<a href="#infog"><button class=lien ><h3>Information général</h3> </button></a>
+	<a href="#util"><button class=lien><h3>Comment l'utiliser?</h3></button></a>
+	<a href="#class"><button class=lien ><h3>Information sur la class</h3></button></a>
+	</div>
+	<div class=bandeau><h1 class=titre>Documention</h1></div>
+	<div class=centre_bas><span class=textemillieu><h1 id=infog>Information générale:</h1><br><dl><h2>-Ce programme est destinée à un usage privée uniquement tout droits reservés<br>-Une connexion internet stable est nessecaire au bon fonctionnement du programme</h2></dl><h1 id=util>Comment utiliser:</h1><br><dl><h2>1)Lancer le programme<br>2)A l'aide de votre clavier, taper les mots clef en suivant l'arborescence noter dans le fenêtre d'entrée.<br>3)-Dans le cas d'une recherche a partir d'un artiste, noter le nom de l'artiste et attendre le résultat.<br>-Dans le cas d'une recherche a partir d'un titre, noter le nom du titre et attendre le résultat.<br>4)Pour arreter le probramme, taper stop à la première étape de l'arborescences.</h2></dl></span>
+	<h1 id=class>listes des méthodes :</h1><br><h2>
+		<dl>-info_artiste(artiste_objet):<br>
+			&emsp;&emsp;Méthode qui a pour but d'aller chercher dans l'api musicbrainz les info principales sur l'artiste et de les renvoyer
+			<br>&emsp;&emsp;Renvoie les infos de l'artiste
+		<br>-musique_artiste(artiste_objet):
+			<br>&emsp;&emsp;Méthode qui a pour but d'aller chercher dans l'api musicbrainz les musique créer/écrite/participer l'artite et de les renvoyer
+			<br>&emsp;&emsp;Renvoie les musique créer par l'artiste
+		<br>-collab(artiste_objet):
+			<br>&emsp;&emsp;Méthode qui a pour but d'aller chercher dans l'api musicbrainz toute les collaboration que l'artiste a fais avec d'autres artistes et de les renvoyer
+			<br>&emsp;&emsp;Renvoie les collaboration de l'artiste
+		<br>-artiste musique(musique_objet):
+			<br>&emsp;&emsp;Méthode qui a pour but d'aller chercher dans l'api musicbrainz le ou les artistes qui ont creer cette musique et de les renvoyer
+			<br>&emsp;&emsp;Renvoie le(s) qui a(ont) travaillé sur la musique
+			
+		<br>-info_musique(musique_objet):
+			<br>&emsp;&emsp;Méthode qui a pour but d'aller chercher dans l'api musicbrainz les info principale de la musique et de les renvoyer
+			<br>&emsp;&emsp;Renvoie les infos de la musiques</dl><h2>
+	</div>
+	
+	
+	
+	
+
+	
+    </body>
+</html>
