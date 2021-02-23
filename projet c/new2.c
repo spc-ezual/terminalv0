@@ -12,4 +12,4 @@ int main(void)
 	printf("%f",add);
 	return 0;
 }
-
+aezqra

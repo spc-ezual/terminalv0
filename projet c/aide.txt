@@ -1,6 +1,6 @@
 compilation en c via terminal:
 	utiliser cd pour aller au fichier ou est le .cd
-	utiliser la commande suivante "gcc {nom fichier.c} -o {nom executable}
+	utiliser la commande suivante "gcc  {-nom de la library}{nom fichier.c} -o {nom executable}
 %d = int
 %f = float
 \n retour a la ligne
